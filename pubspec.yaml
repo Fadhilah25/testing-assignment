@@ -1,0 +1,31 @@
+name: flutter_supabase
+description: "Latihan Supabase Todo"
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.1.0 # HTTP requests
+  provider: ^6.0.5 # State management
+  shared_preferences: ^2.2.0 # Local storage untuk token
+  intl: ^0.18.1 # Date formatting
+  sqflite: ^2.3.0 # SQLite database
+  sqflite_common_ffi: ^2.3.0 # SQLite untuk desktop (Windows/Linux/macOS)
+  path: ^1.8.0 # Path manipulation
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
